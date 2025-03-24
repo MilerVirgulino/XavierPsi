@@ -8,16 +8,35 @@ const HomePage = ()=>{
     }
     return (
         <div className="container">
+            <h1>Bem vindo(a) Mariana </h1>
 
         <div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Calendário</label>
+            </div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Pacientes</label>
+            </div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Anamneses</label>
+            </div>
         </div>
         <div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Prontuários</label>
+            </div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Financerio</label>
+            </div>
+            <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
+            <label>Sair</label>
+            </div>
         </div>
         </div>
     )
