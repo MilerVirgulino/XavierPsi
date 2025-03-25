@@ -35,7 +35,7 @@ const HomePage = ()=>{
             </div>
             <div className="menu">
             <img src={imgTest} onClick={handleTouch}/>
-            <label>Sair</label>
+            <label> Logout </label>
             </div>
         </div>
         </div>

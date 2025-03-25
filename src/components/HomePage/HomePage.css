@@ -2,8 +2,6 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-
 }
 h1{
     display: flex;
@@ -42,8 +40,10 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
-    
+    border: solid rgba(0, 0, 0, 0.178) 1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 label{
